@@ -35,6 +35,9 @@ const Nasted = () => {
           <Image  style={styles.star} source={item.Image1}  className = "h-4 w-4 rounded-t-3xl"
         resizeMode="cover"  />
         <View>
+
+
+          
         <Text style={styles.rating} className='text-black-900 '>{item.text1}</Text>
         <Image style={styles.clocks} source={item.clock}  className = "h-3 w-3 rounded-t-3xl"
         resizeMode="cover"  />
